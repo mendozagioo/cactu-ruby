@@ -16,11 +16,11 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
 
-  spec.add_runtime_dependency 'sassc', '>= 1.12.1'
-  spec.add_runtime_dependency 'autoprefixer-rails', '>= 9.1.0'
+  spec.add_runtime_dependency 'sassc', '~> 1.12', '>= 1.12.1'
+  spec.add_runtime_dependency 'autoprefixer-rails', '~> 9.1', '>= 9.1.0'
 
   spec.add_development_dependency "minitest", "~> 5.0"
-  spec.add_development_dependency 'term-ansicolor'
-  spec.add_development_dependency 'sprockets-rails', '>= 2.3.2'
-  spec.add_development_dependency 'uglifier'
+  spec.add_development_dependency 'term-ansicolor', '~> 0'
+  spec.add_development_dependency 'sprockets-rails', '~> 2.3', '>= 2.3.2'
+  spec.add_development_dependency 'uglifier', '~> 0'
 end
