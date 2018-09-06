@@ -1,0 +1,16 @@
+//
+// Transition mixins
+// --------------------------------------------------
+
+
+@mixin transition($transition...) {
+  @if length($transition) == 0 {
+    transition: $transition-all;
+  } @else {
+    transition: $transition;
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
