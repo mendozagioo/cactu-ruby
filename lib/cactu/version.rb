@@ -1,3 +1,3 @@
 module Cactu
-  VERSION = "0.18.0"
+  VERSION = "0.18.1"
 end
