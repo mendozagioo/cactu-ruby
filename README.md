@@ -11,7 +11,7 @@ Cactu is a Sass framework to create webs easily, created to be simple, semantic,
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cactu', '~> 0.20.0'
+gem 'cactu', '~> 0.20.1'
 ```
 
 Ensure that `sprockets-rails` is at least v2.3.2.
